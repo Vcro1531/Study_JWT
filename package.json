@@ -4,6 +4,9 @@
   "description": "Study_JWT",
   "main": "index.js",
   "scripts": {
+    "devStart": "nodemon server.js",
+    "devStartAuth": "nodemon authServer.js",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +23,8 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "random-bytes": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
