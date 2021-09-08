@@ -1,32 +1,22 @@
 {
-  "name": "Study_JWT",
+  "name": "current-project",
   "version": "1.0.0",
-  "description": "Study_JWT",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
     "devStartAuth": "nodemon authServer.js",
-
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dsmjimin/Study_JWT.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dsmjimin/Study_JWT/issues"
-  },
-  "homepage": "https://github.com/dsmjimin/Study_JWT#readme",
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "random-bytes": "^1.0.0"
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^1.19.2"
   }
 }
